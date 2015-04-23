@@ -1,0 +1,14 @@
+#header{
+	background-color: green;
+	padding:20px;
+}
+
+#content{
+	background-color: #FFF;
+	padding: 20px;
+}
+
+#footer{
+	background-color: yellow;
+	padding: 20px;
+}

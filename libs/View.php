@@ -2,10 +2,16 @@
 
 class View{
 	function __construct(){
-		echo "this is the view <br/>";
+
 	}
 
-	public function render($name){
-		require 'views/'.$name.'.php';
+	public function render($name,$isInclude = true){
+		if($isInclude){
+			require 'views/header.php';
+			require 'views/'.$name.'.php';
+			require 'views/footer.php';
+		}else{
+			require 'views/'.$name.'.php';
+		}
 	}
 }
