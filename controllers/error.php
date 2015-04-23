@@ -7,4 +7,8 @@ class Error extends controller{
 	function index(){
 		$this->view->render('error/index');
 	}
+
+	function display($error){
+		
+	}
 }
