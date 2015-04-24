@@ -7,11 +7,11 @@ class View{
 
 	public function render($name,$isInclude = true){
 		if($isInclude){
-			require 'views/header.php';
-			require 'views/'.$name.'.php';
-			require 'views/footer.php';
+			require URL.'views/header.php';
+			require URL.'views/'.$name.'.php';
+			require URL.'views/footer.php';
 		}else{
-			require 'views/'.$name.'.php';
+			require URL.'views/'.$name.'.php';
 		}
 	}
 }

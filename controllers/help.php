@@ -10,7 +10,7 @@ class Help extends controller{
  	}
 
 	public function other($param = false){
-		require 'models/help_model.php';
-		$model = new Help_Model();
+		$model = $this->loadModel('help');
+		$this->view->render('help/other');
 	}
 }
