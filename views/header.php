@@ -8,7 +8,6 @@
 </head>
 <body>
 <div id="header">
-	this is the header
 	<a href="<?php echo URL;?>index">Index</a>
 	<a href="<?php echo URL;?>help">Help</a>
 	<a href="<?php echo URL;?>error">Error</a>

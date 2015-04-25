@@ -1,6 +1,6 @@
 </div>
 <div id="footer">
-this is the footer;
+&copy;KanFramework;
 </div>
 </body>
 </html>

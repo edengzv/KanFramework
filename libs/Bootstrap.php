@@ -6,7 +6,9 @@ class Bootstrap{
 			$url = $_GET['url'];
 		}
 
+
 		$url = rtrim($url,'/');
+		$url = filter_var($url,FILTER_SANITIZE_URL);
 		$url = explode('/', $url);
 		//init the controller
 		$file = 'controllers'.'/'.$url[0].'.php';

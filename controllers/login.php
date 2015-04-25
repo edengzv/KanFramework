@@ -20,7 +20,7 @@ class Login extends Controller{
 	}
 
 	public function logout(){
-		$this->view->render('login/index');
 		session_destroy();
+		$this->view->render('login/index');
 	}
 }

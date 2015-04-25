@@ -1,14 +1,30 @@
-#header{
-	background-color: green;
-	padding:20px;
+body{
+	background-color:rgb(100, 100, 95);
 }
-
+#header{
+	background-color: rgb(59, 177, 211);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding:20px 20px;
+	height: 30px;
+}
+#header a{
+	display:block;
+	margin-left: 10px;
+	background-color:red;
+	text-decoration: none;
+	color:#FFF;
+	float:left;
+}
 #content{
 	background-color: #FFF;
-	padding: 20px;
+	padding: 20px 20px;
+	height: 100px;
 }
 
 #footer{
-	background-color: yellow;
+	background-color: rgb(59, 177, 211);
 	padding: 20px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
